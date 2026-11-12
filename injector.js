@@ -92,7 +92,7 @@
 
   // AUDIO WORKLET ( VOICE LOCK ENGINE)
   const audioWorkletCode = `
-        class RaZeProcessor extends AudioWorkletProcessor {
+        class ZenProcessor extends AudioWorkletProcessor {
             constructor() {
                 super();
                 this._dcX = new Float32Array(8); this._dcY = new Float32Array(8);
@@ -507,8 +507,8 @@
       panelEl.innerHTML = `
         <header id="synth-header" class="synth-header">
             <div>
-                <div class="synth-title gradient-text">RaZeCorD V1</div>
-                <div class="synth-creator">By RaZe (@unfoldedfaith / @fametalks)<br>& Modexà (@modexathegreat)</div>
+                <div class="synth-title gradient-text">zenCorD V1</div>
+                <div class="synth-creator">By Zenbll (@unfoldedfaith / @fametalks)<br>& Modexà (@modexathegreat)</div>
             </div>
             <div class="synth-window-controls">
                 <button id="btn-collapse" class="synth-icon-btn">−</button>
